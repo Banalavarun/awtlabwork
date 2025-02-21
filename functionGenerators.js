@@ -8,4 +8,5 @@ function* numberGenerator() {
   console.log(gen.next());
   console.log(gen.next().value); 
   console.log(gen.next().value); 
+  console.log(gen.next());
   
